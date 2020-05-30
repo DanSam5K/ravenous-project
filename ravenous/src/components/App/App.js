@@ -4,7 +4,7 @@ import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 
 
-class App extends React.Components {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
@@ -15,4 +15,5 @@ class App extends React.Components {
     );
   }
 }
+
 export default App;
